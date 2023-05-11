@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "outDir": "dist",
+    "outDir": "build",
+    "rootDir": "src",
     "target": "es2021",
     "sourceMap": true,
     "skipLibCheck": true,
@@ -9,7 +10,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "baseUrl": "src",
+    //"baseUrl": "src",
     "strict": true,
     "noImplicitOverride": true,
     "removeComments": true,
