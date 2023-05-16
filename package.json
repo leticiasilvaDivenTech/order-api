@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --project tsconfig.json",
-    "start:dev": "nodemon --watch \"src/\" --exec \"ts-node src/index.ts\" -e ts",
-    "start": "node build/index.js"
+    "build": "tsc",
+    "dev": "nodemon ./src/index.ts",
+    "start": "node dist"
   },
   "devDependencies": {
     "@types/express": "^4.17.15",
@@ -24,6 +24,7 @@
     "express-async-errors": "^3.1.1",
     "http-status-codes": "^2.2.0",
     "mongoose": "^6.8.2",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.5.4"
   }
 }
