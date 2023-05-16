@@ -1,0 +1,1 @@
+{"version":3,"file":"CategoryModel.js","sourceRoot":"","sources":["../../../src/app/models/CategoryModel.ts"],"names":[],"mappings":";;;AAAA,uCAAuC;AAE1B,QAAA,QAAQ,GAAG,IAAA,gBAAK,EAAC,UAAU,EAAE,IAAI,iBAAM,CAAC;IACnD,IAAI,EAAE;QACJ,IAAI,EAAE,MAAM;QACZ,QAAQ,EAAE,IAAI;KACf;IACD,IAAI,EAAE;QACJ,IAAI,EAAE,MAAM;QACZ,QAAQ,EAAE,IAAI;KACf;CACF,CAAC,CAAC,CAAC"}
